@@ -1,0 +1,127 @@
+#+TITLE: Successful Product Development
+#+AUTHOR: Shom Bandopadhaya
+#+DATE: September 06, 2022
+
+* Successful Product Development
+** Bringing products to market on time and on budget
+
+* Belcan Overview
+** Global Engineering Company founded in 1958
+[[./belcanWorldmap.png]]
+Over 50 Locations Throughout North America, Europe, & India
+More than 5,000 Employees
+
+* Systems and Controls
+Belcan develops standalone and auxiliary control systems using both Commercial-Off-the-Shelf and purpose designed hardware
+** Tools and Approach
+Agile software delivery and rapid prototyping
+Embedded C/C++
+Model Based Design (Matlab/Simulink)
+Electrical and Electronics design
+Linux based display development
+Cloud portals for updates/diagnostics
+CAN/J1939/ISOBUS/Serial/Ethernet
+Simulation driven development & testing
+** Project Examples
+*** Construction: Remote Control Cement Truck
+Single operator remote controls truck movement (driving), steering, chute, and drum operation
+Safety critical system with robust failsafe systems
+*** Mining: Brake-by-Wire and Stability Control
+Four channel anti-lock braking for mining trucks
+Active stability control via differential brake-by-wire
+*** Industrial: Snow Removal Machines
+Multi-system safety critical precision control for main unit with 6-wheel steering and tow-behind unit
+Single operator interface for electronic controls of multi-function machine
+*** Agriculture: Sprayer Control
+Precisely meter flow to multiple rows based on closed loop flow meter feedback
+Coordinate multiple section controllers with overall application prescription
+Use Wi-Fi gateway with iPad App to monitor/control
+
+
+* Industry Advisory Board (IAB) Recommendations
+** The quality of Senior Projects are paramount for program and job placement
+** Team Size
+Recommend 2 (max 3) person teams
+** Project selection
+Select projects that are challenging
+Define progressive goals: base goal, stretch goals
+Scope review with IAB members to ensure applicability to industry
+
+** Student Coaching
+Balance between requirements, investigation, technical execution, and reporting
+Increased emphasis on integration (software-hardware, modules, continuous integration)
+Define standard milestones / checkpoints during projects
+IAB members are interested in advising on projects
+
+* Successful Product Development
+Developing a product from concept to production is an exciting but challenging journey. Successful product development involves a lot more than good ideas backed by good engineering. Unless all those aspects are addressed competently, lots of great products don't make the whole journey.
+
+In this two session discussion we'll start with taking an idea, defining the requirements for a minimal viable product, track and deliver milestones through agile development, using decision making criteria along the way to ensure that we're making the most optimal decision and using the appropriate tools. We'll discuss concepts and then get hands-on with tools and technology to implement those strategies.
+
+* Why requirements are important
+#+ATTR_ORG: :width 1200
+[[./craneCrash.jpg]]
+
+* Project Phases
+** Traditional V-Model
+#+ATTR_ORG: :width 1200
+[[./traditionalVModel.png]]
+
+* Agile Software Development
+** Value-driven delivery
+#+ATTR_ORG: :width 800
+[[./valueDrivenDelivery.png]]
+** TL;DR
+Deliver often and early
+On-going feedback
+Embrace change and involve customer in:
+=iterative prioritization and progressive elaboration=
+#+ATTR_ORG: :width 1200
+[[./progressiveMonaLisa.png]]
+
+* Project Scheduling and Time Management
+#+ATTR_ORG: :width 1200
+** [[xkcd.com/1658][xkcd 1658]]
+[[./xkcd1658.png]]
+** Hofstadter's Law Corollary
+Corollary to Hofstadter's Law: Every minute you spend thinking about Hofstadter's Law is a minute you're NOT WORKING AND WILL NEVER FINISH! PAAAAAANIIIIIIC!
+** Create a story map
+and systematically panic about…
+*** Long lead items
+*** Items you don’t have direct control over
+*** Items are that are at the end of long dependency chains
+
+** Mitigation strategies
+- Define a Minimal Viable Product (MVP)
+- Prioritize features by value
+- Define releases that add value progressively and are standalone features
+- Develop MVP
+- Make the MVP work (if all else fails, something works)
+- Tackle each release at a time and don’t work ahead until you make this release work
+
+* Practical Suggestions and Tools
+** Make your own process, but follow it
+** Create a simple flow that every user story follows, suggestion:
+To Do ➡ Fully Baked ➡ In Progress (& Testing) ➡ Done
+- To Do: Just a title, anything that needs to get done at some point
+- Fully Baked: All the information you need to complete this task is available and you have a clearly defined Acceptance Criteria and Test Plan
+- In Progress: working on it now, limit this to a few items are possible, ideally only 1
+- Testing: Does it actually do what you thought, does someone need to approve?
+- Done: No more changes, if something needs to change make a new story
+
+** Tools
+- Belcan uses [[https://targetprocess.com][Target Process]], suggest using [[https://trello.com][Trello]] (simpler and free) or [[https://github.com][Github issues]]
+- Comment on the user story instead of emails, lot easier to find what happened in the future when information is all in the same place
+- =USE VERSION CONTROL= recommend using and hosting all code and documents (use Markup for diff-able clear text) on Github
+- Tool demo next session
+
+* Testing and Validation
+** Focus on independently testable pieces at all levels
+- Write the acceptance criteria (AC) such that they are testable
+- Aggregate all your ACs and that becomes your test plan
+- Always focus on modularity in development (leading to modularity in testing)
+- Test Driven Development (TDD) is ideal but probably difficult for practical implementation for Senior Projects, but the principles apply
+
+* Product Development Questionnaire
+#+ATTR_ORG: :width 1200
+[[./agileProductDevelopment.png]]
