@@ -1,6 +1,6 @@
 #+TITLE: Successful Product Development
 #+AUTHOR: Shom Bandopadhaya
-#+DATE: September 06, 2022
+#+DATE: September 08, 2022
 
 * Successful Product Development
 ** Bringing products to market on time and on budget
