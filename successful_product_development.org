@@ -2,6 +2,8 @@
 #+AUTHOR: Shom Bandopadhaya
 #+DATE: September 08, 2022
 
+DATE: September 08, 2022 (originally created in 2021)
+
 * Successful Product Development
 ** Bringing products to market on time and on budget
 
